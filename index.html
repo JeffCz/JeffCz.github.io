@@ -43,22 +43,30 @@
 
    <body data-spy="scroll" data-target="#navbar" data-offset="0">
    <!-- Navigation -->
-   <nav id="navbar" class="navbar fixed-top">
+   <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
       <a class="navbar-brand" href="#"><img src="assets/brand.png" alt=""></a>
-      <ul class="nav nav-pills">
-         <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="#blogs">Blogs</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-         </li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="nav nav-pills ml-auto">
+            <li class="nav-item">
+               <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#testi">Testimonials</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#blogs">Blogs</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#contact">Contact</a>
+            </li>
+         </ul>
+      </div>   
    </nav>
 
    <!-- Background Video -->
@@ -155,6 +163,84 @@
       </div>
    </blockquote>
 
+   <div class="container-fluid py-5">
+      <div class="col-sm-8 mx-auto pl-4" id="testi">
+         <p class="h1 text-sm-left pb-5">Testimonials</p>
+      </div>
+      <div class="col-sm-8 mx-auto" id="accordion">
+         <div class="card">
+           <div class="card-header" id="headingOne">
+               <img class="card-img-top rounded-circle mx-auto" src="assets/brock.jpeg" alt=""> 
+               <button class="btn btn-link collapsed ml-2" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               BROCK CENTLIVRE
+               </button>
+           </div>
+           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+               <p class="card-text"><i>"Jeff’s coaching process and approach have transformed me personally as a leader at 5BY5 Engineers. He has offered very insightful and direct communication regarding my leadership growth as well as helping me establish a clear vision for our company. Jeff delivers very measurable and practical tools that help our organization establish processes, team member expectations, as well as our company values.  We will utilize Jeff’s leadership development program as well as his business insight as we grow in our industry."</i></p>
+            </div>
+           </div>
+         </div>
+         <div class="card">
+            <div class="card-header" id="headingTwo">
+               <img class="card-img-top rounded-circle mx-auto" src="assets/lesley.jpeg" alt=""> 
+               <button class="btn btn-link collapsed ml-2" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+               LESLEY POLADSKY
+               </button>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+             <div class="card-body">
+               <p class="card-text"><i>"Jeff has a natural ability to immediately make you feel comfortable in sharing your story, expressing emotions, and identifying your goals and dreams. Through open and honest communication he kept me on track with my personal goals by keeping me accountable, challenging me in a supportive manner, as well as allowing me to explore different options and opportunities to find what I truly wanted to do. Through his extensive management and leadership experience in previous roles with UPS, he was able to provide me with unique insights and recommendations specific to what I was trying to accomplish and different avenues to reach it. I'd highly recommend Jeff as a coach for those in Leadership roles or those wanting to move into such positions - he drives results through practical applications and tools while cheering you along as you smash your goals and reaching your dreams. I am currently enjoying my new role in management and leadership and couldn't be happier!"</i></p>
+             </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-header" id="headingThree">
+               <img class="card-img-top rounded-circle mx-auto" src="assets/zach.jpeg" alt=""> 
+               <button class="btn btn-link collapsed ml-2" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+               ZACH AREND
+               </button>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+             <div class="card-body">
+                <p class="card-text"><i>"Jeff and I have worked in a coaching relationship for over a year now. He focuses on my agenda and helps me find clarity in what serves my values and purpose. I’ve learned practical approaches to managing my energy and realized measurable results through utilizing his Energy Leadership model. Jeff’s Energy Leadership framework has led me to experience clearer thinking, fostering more creativity and mental space in my life. It also has increased my self-awareness which led me to experience higher energy levels throughout my day and a more collaborative approach to leadership. Jeff’s coaching has benefited me and those around me. I’ve become a more authentic leader and my wife would tell you a better husband, and dad.  I’d highly recommend working with him."</i></p>
+             </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-header" id="headingFour">
+               <img class="card-img-top rounded-circle mx-auto" src="assets/walt.jpeg" alt=""> 
+               <button class="btn btn-link collapsed ml-2" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+               WALTER DAY
+               </button>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+             <div class="card-body">
+               <p class="card-text"><i>"Jeff and I have worked together off and on for the past 30 years and he has always proven to be a true leader. Jeff has the capacity to inspire and motivate without coercion. He asks for commitment and instills a desire on the part of the individual to do their very best; to contribute 120%. Jeff's mastery and ease in a leadership role also makes it possible for him, and any team he leads, to meet and exceed any performance metric he's been challenged with. Whether the bottom line is cost, performance, or the combined measure of profitability, his focus is always razor sharp and his numbers well ahead of the curve. Jeff makes success look so easy you'd think just about anybody could do it; that's what sets him apart."</i></p>
+             </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-header" id="headingFive">
+               <img class="card-img-top rounded-circle mx-auto" src="assets/marsh.jpeg" alt=""> 
+               <button class="btn btn-link collapsed ml-2" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+               MARSHALL DOMINGUEZ
+               </button>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+             <div class="card-body">
+               <p class="card-text"><i>"Jeff says he takes the approach of a coach. That is exactly how I saw him when he was my manager at UPS. He had patience with me and took the time to teach me skills that I was lacking. The biggest impact that he had in my life was to encourage me to go back to college. I followed his suggestions and received my AS in Marketing/Mid Management AND BA in H.R/Management. I was an honor student in both schools. Because of his sincere approach, I followed his suggestions. I have since completed my CNA/CMA Certifications in the medical field. It is management like Jeff, that an employee like me, would follow just to make his team excel to the highest."</i></p>
+             </div>
+            </div>
+         </div>
+       </div>
+   </div>
+
+   <blockquote class="blockquote mx-auto p-5">
+      <div class="col-sm-4 text-center align-items-center mx-auto">
+         <p class="mb-0"><i>Values-Based leadership is one where intuition is aligned with purpose. Your ability to influence is manifested by your desire to bring the high resonant energy of service to those you lead.</i></p>
+      </div>
+   </blockquote>
    <!-- Blogs -->
    <div class="container-fluid py-5">
       <div class="col-sm-8 mx-auto pl-4" id="blogs">
@@ -166,7 +252,7 @@
                <p class="text-sm-center"><i class="fas fa-laptop fa-3x pb-5"></i></p>
                <p class="card-title h5"><b>Blogs:</b></p><br>
                <p class="card-text">I enjoy writing on the topic of Leadership and how we may present leadership in ourselves and to others in life and at work. The idea behind my blogs and newsletters is to provide some mental prompts to stir up my reader's self-awareness and promote personal growth. These thoughts are spontaneous, and some come from my interactions with my clients, other professionals and some, well, they are my own personal musings.</p>
-               <p class="card-text">So then, I've decided to share what I have found purposeful and relevant. Some of you receiving this are familiar with the topic and some, well, I'm hoping to spur your curiosity to experience something new. To follow my writings you can subscribe to my <a href="https://medium.com/@perpetualcompasscoaching" target="_blank">blog</a> and sign up for my <a href="https://mailchi.mp/jeffczernicki/my-leadership-purpose" target="_blank">newsletter.</a></p>
+               <p class="card-text">So then, I've decided to share what I have found purposeful and relevant. Some of you receiving this are familiar with the topic and some, well, I'm hoping to spur your curiosity to experience something new. To follow my writings you can subscribe to my <a href="https://medium.com/@jeffczcoaching" target="_blank">blog</a> and sign up for my <a href="https://mailchi.mp/jeffczernicki/my-leadership-purpose" target="_blank">newsletter.</a></p>
             </div>
          </div>
          <div class="card pt-5">
@@ -184,7 +270,7 @@
    <div class="mx-auto col-sm-12 py-md-5">
       <div class="row" id="contact">
          <div class="row align-content-center mx-auto py-5" id="social">
-            <a href="https://www.facebook.com/perpetualcompasscoaching/" target="_blank"><i class="fab fa-facebook fa-5x px-md-5 px-2" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/jeffczernicki" target="_blank"><i class="fab fa-facebook fa-5x px-md-5 px-2" aria-hidden="true"></i></a>
             <a href="https://twitter.com/jeffczernicki" target="_blank"><i class="fab fa-twitter fa-5x px-md-5 px-2" aria-hidden="true"></i></a>
             <a href="mailto:coaching@jeffcz.com" target="_top"><i class="fas fa-envelope fa-5x px-md-5 px-2" aria-hidden="true"></i></a>
             <a href="https://www.instagram.com/perpetual.compass.coaching/" target="_blank"><i class="fab fa-instagram fa-5x px-md-5 px-2" aria-hidden="true"></i></a>
