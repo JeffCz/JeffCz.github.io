@@ -97,7 +97,7 @@ header {
     position: relative;
     background-color: #fffaf0;
     height: 85vh;
-    min-height: 10rem;
+    min-height: 20rem;
     width: 100%;
     overflow: hidden;
 }
@@ -131,7 +131,7 @@ header .overlay {
     z-index: 1;
 }
 #logo{
-    max-width: 60%;
+    max-width: 50%;
 }
 /* Page Content */
 blockquote{
